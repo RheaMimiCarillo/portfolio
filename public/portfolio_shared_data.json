@@ -1,6 +1,6 @@
 {
     "basic_info": {
-      "name": "Rhea Carilo",
+      "name": "Rhea Carillo",
       "titles": [ "Software Developer" ],
       "social": [
         {
@@ -14,7 +14,7 @@
           "class": "fab fa-linkedin"
         }
       ],
-      "image": "headshot_large"
+      "image": "headshot_large.jpg"
     },
     "skills": {
       "icons": [
