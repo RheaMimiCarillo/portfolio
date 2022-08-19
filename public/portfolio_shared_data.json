@@ -1,0 +1,54 @@
+{
+    "basic_info": {
+      "name": "Rhea Carilo",
+      "titles": [ "Software Developer" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/RheaMimiCarillo",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/rhea-carillo/",
+          "class": "fab fa-linkedin"
+        }
+      ],
+      "image": "headshot centered and square.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "95"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "95"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "class": "devicon-java-plain",
+          "name": "Java"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-github-plain",
+          "name": "GitHub"
+        }
+      ]
+    }
+  }
