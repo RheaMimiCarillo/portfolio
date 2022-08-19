@@ -1,6 +1,6 @@
 {
     "basic_info": {
-      "name": "Rhea Carilo",
+      "name": "Rhea Carillo",
       "titles": [ "Software Developer" ],
       "social": [
         {
@@ -14,7 +14,7 @@
           "class": "fab fa-linkedin"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "headshot_large.jpg"
     },
     "skills": {
       "icons": [
@@ -34,9 +34,20 @@
           "level": "70"
         },
         {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
+          "class": "devicon-java-plain",
+          "name": "Java"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-github-plain",
+          "name": "GitHub"
         }
       ]
     }
