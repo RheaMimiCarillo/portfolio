@@ -1,7 +1,10 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Ursula Lopez. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Code Fellows. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "Hi, my name is Rhea Mimi Carillo and I use she/her pronouns. I'm a software dev developing my skills at Code Fellows. My background is in military civil engineering: think, cartography, land survey, and computer aided drafting. What I really like to do is solve puzzles. My friends, family, and co-workers know me as for as the troubleshooting whiz and what is troubleshooting but another puzzle? I enjoy coding, because it gives me a box to think outside of and allows me immediate feedback as I'm tinkering with problems, which allows me quickly change gears when I'm on to something up until I finally reach that 'Eureka!' moment. A career in the tech field seems right up my alley to further stretch and grow my analytical muscles for practical applications."
+      
+      
+      ,
       "section_name": {
         "about": "About me",
         "projects": "Projects",
