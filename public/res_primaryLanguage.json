@@ -22,6 +22,14 @@
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
           }
         ]
       },
@@ -54,18 +62,30 @@
         ]
       },
       {
-        "title": "City Explorer",
+        "title": "Code 301 Final Project",
         "startDate": "2022",
         "description": "Gotta catch 'em all!",
         "images": [
           "images/portfolio/city-explorer/pic1.jpg",
           "images/portfolio/city-explorer/pic2.jpg"
         ],
-        "url": "https://github.com/RheaMimiCarillo/city-explorer",
+        "url": "https://github.com/RheaMimiCarillo/really-cool-project-name",
         "technologies": [
           {
-            "class": "devicon-jypescript-plain",
-            "name": "JypeScript"
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
           }
         ]
       }
