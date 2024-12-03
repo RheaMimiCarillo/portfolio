@@ -6,7 +6,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Home from "./components/Home";
-import Gallery from "./components/Gallery";
+import Gallery from './components/Gallery';
+
 
 class App extends Component {
 
@@ -30,17 +31,20 @@ class App extends Component {
   }
 
   swapCurrentlyActiveLanguage = (oppositeLangIconId) => {
-    var pickedLangIconId =
+    const oppositeLangIcon = document.getElementById(oppositeLangIconId);
+    const pickedLangIconId =
       oppositeLangIconId === window.$primaryLanguageIconId
         ? window.$secondaryLanguageIconId
         : window.$primaryLanguageIconId;
-    document
-      .getElementById(oppositeLangIconId)
-      .removeAttribute("filter", "brightness(40%)");
-    document
-      .getElementById(pickedLangIconId)
-      .setAttribute("filter", "brightness(40%)");
-  }
+    const pickedLangIcon = document.getElementById(pickedLangIconId);
+  
+    if (oppositeLangIcon) {
+      oppositeLangIcon.removeAttribute("filter", "brightness(40%)");
+    }
+    if (pickedLangIcon) {
+      pickedLangIcon.setAttribute("filter", "brightness(40%)");
+    }
+  };
 
   componentDidMount = () => {
     this.loadSharedData();
