@@ -1,5 +1,3 @@
-# Modify this portfolio
+# Professional Portfolio
 
-Make it your own!
-
-[Deployed page](https://rhea-carillo-portfolio.netlify.app/)
+[View my portfolio here](https://rhea-carillo-portfolio.netlify.app/)
