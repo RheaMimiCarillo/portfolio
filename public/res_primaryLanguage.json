@@ -1,110 +1,119 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "Hi, my name is Rhea Mimi Carillo and I use she/her pronouns. I'm a software dev developing my skills at Code Fellows. My background is in military civil engineering: think, cartography, land survey, and computer aided drafting. What I really like to do is solve puzzles. My friends, family, and co-workers know me as for as the troubleshooting whiz and what is troubleshooting but another puzzle? I enjoy coding, because it gives me a box to think outside of and allows me immediate feedback as I'm tinkering with problems, which allows me quickly change gears when I'm on to something up until I finally reach that 'Eureka!' moment. A career in the tech field seems right up my alley to further stretch and grow my analytical muscles for practical applications.",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "Junior software engineer with a strong foundation in computer science, cloud solutions, and distributed systems. U.S. Air Force veteran with experience in project leadership and scalable software development. Eager to contribute my technical expertise and collaborative skills to software development internships focusing on innovative cloud technologies and enterprise solutions.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Guess The Rainbow",
+      "startDate": "2022",
+      "description": "Developed an inclusive and accessible puzzle game inspired by Wordle, designed for users with visual or reading impairments. Implemented using HTML5, CSS3, and JavaScript, with state persistence handled via LocalStorage. Focused on creating a scalable, responsive UI and an experience that caters to a broad audience. Optimized the app for performance and accessibility, ensuring a smooth experience across devices.",
+      "images": ["images/portfolio/rainbow/guess-the-rainbow-screenshot.png"],
+      "url": "https://github.com/guess-the-rainbow/guess-the-rainbow-game",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS3"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Guess The Rainbow",
-        "startDate": "2022",
-        "description": "Guessing game in the same vein of Wordle, but uses colors in place of words to be more accessible to pre-readers, those with reading impairments (dyslexia), and non-English speakers.",
-        "images": [
-          "images/portfolio/rainbow/guess-the-rainbow-screenshot.png"
-        ],
-        "url": "https://github.com/guess-the-rainbow/guess-the-rainbow-game",
-        "technologies": [
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-html5-plain",
-            "name": "HTML5"
-          },
-          {
-            "class": "devicon-css3-plain",
-            "name": "CSS3"
-          }
-        ]
-      },
-      {
-        "title": "Gallery of Beasts",
-        "startDate": "2022",
-        "description": "Rhinos & Dragons & 'corns, Oh My!",
-        "images": [
-          "images/portfolio/gallery-of-beasts/p1.jpg",
-          "images/portfolio/gallery-of-beasts/p2.jpg"
-        ],
-        "url": "https://github.com/RheaMimiCarillo/portfolio",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-html5-plain",
-            "name": "HTML5"
-          },
-          {
-            "class": "devicon-css3-plain",
-            "name": "CSS3"
-          }
-        ]
-      },
-      {
-        "title": "Code 301 Final Project",
-        "startDate": "2022",
-        "description": "Gotta catch 'em all!",
-        "images": [
-          "images/portfolio/city-explorer/pic1.jpg",
-          "images/portfolio/city-explorer/pic2.jpg"
-        ],
-        "url": "https://github.com/RheaMimiCarillo/really-cool-project-name",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-html5-plain",
-            "name": "HTML5"
-          },
-          {
-            "class": "devicon-css3-plain",
-            "name": "CSS3"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "United States Air Force",
-        "title": "Civil Engineering Technician",
-        "years": "10.2012 - 10.2018",
-        "mainTech": [
-          "ArcGIS"
-        ],
-        "technologies": [
-          "AutoCAD",
-          "Trimble",
-          "Construction Management",
-          "GPS",
-          "Soil, asphalt, concrete tests"
-          ]
-      }
-    ]
-  }
+    {
+      "title": "RESTy",
+      "startDate": "2022",
+      "description": "Simple RESTful API client.",
+      "images": [
+        "images/portfolio/gallery-of-beasts/p1.jpg",
+        "images/portfolio/gallery-of-beasts/p2.jpg"
+      ],
+      "url": "https://github.com/RheaMimiCarillo/portfolio",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS3"
+        }
+      ]
+    },
+    {
+      "title": "Code 301 Final Project",
+      "startDate": "2022",
+      "description": "Gotta catch 'em all!",
+      "images": [
+        "images/portfolio/city-explorer/pic1.jpg",
+        "images/portfolio/city-explorer/pic2.jpg"
+      ],
+      "url": "https://github.com/RheaMimiCarillo/really-cool-project-name",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS3"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "United States Air Force",
+      "title": "Civil Engineering Technician",
+      "years": "10.2012 - 10.2018",
+      "iconClass": "fa-solid fa-compass-drafting",
+      "mainTech": ["ArcGIS"],
+      "technologies": [
+        "Computer-aided drafting (CAD)",
+        "ArcGIS",
+        "Construction Management",
+        "Cartography"
+      ]
+    },
+    {
+      "company": "United States Air Force",
+      "title": "Civil Engineering Specialist",
+      "years": "10.2012 - 10.2018",
+      "mainTech": ["ArcGIS"],
+      "technologies": [
+        "Computer-aided drafting (CAD)",
+        "ArcGIS",
+        "Construction Management",
+        "Cartography"
+      ],
+      "iconClass": "fa-brands fa-angular"
+    }
+  ]
+}

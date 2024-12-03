@@ -6,7 +6,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Home from "./components/Home";
-import Gallery from './components/Gallery';
+import Contact from './components/ContactMe';
 
 
 class App extends Component {
@@ -37,7 +37,7 @@ class App extends Component {
         ? window.$secondaryLanguageIconId
         : window.$primaryLanguageIconId;
     const pickedLangIcon = document.getElementById(pickedLangIconId);
-  
+
     if (oppositeLangIcon) {
       oppositeLangIcon.removeAttribute("filter", "brightness(40%)");
     }
@@ -87,15 +87,15 @@ class App extends Component {
       <Router>
         <Header sharedData={this.state.sharedData.basic_info} />
         <Routes>
-          <Route 
-            exact path="/" 
+          <Route
+            exact path="/"
             element={<Home
               resumeData={this.state.resumeData}
               sharedData={this.state.sharedData}
             />}>
           </Route>
-          <Route 
-            path="/about" 
+          <Route
+            path="/about"
             element={<About
               resumeBasicInfo={this.state.resumeData.basic_info}
               sharedBasicInfo={this.state.sharedData.basic_info}
@@ -105,15 +105,15 @@ class App extends Component {
           {/* add a new page with <Router> */}
           <Route
             path="/gallery"
-            element={<Gallery/>}
+            element={<Contact />}
           >
           </Route>
-          
+
         </Routes>
-        <Footer 
+        <Footer
           sharedBasicInfo={this.state.sharedData.basic_info}
-          applyPickedLanguage={this.applyPickedLanguage} 
-        />  
+          applyPickedLanguage={this.applyPickedLanguage}
+        />
       </Router>
     );
   }
